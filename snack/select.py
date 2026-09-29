@@ -43,6 +43,14 @@ def _ok(p, check_value=True, check_cat=True):
     return True
 
 
+def _pack_ok(p):
+    """개별포장(번들/입/미니박스) 스낵·감자칩: 봉지/카테고리 필터를 건너뛰되 소포장 표기가 있어야 한다."""
+    if p["sold_out"] or not (C.MIN_UNIT_PRICE <= p["price"] <= C.MAX_UNIT_PRICE): return False
+    if any(w in p["name"] for w in C.EXCLUDE_WORDS): return False
+    if p["reviews"] is not None and p["reviews"] < C.MIN_REVIEWS: return False
+    return bool(re.search(r"\d+\s*(입|번들|개입|봉)|미니\s*박스|번들", p["name"]))
+
+
 def _score(p):
     r = p["reviews"] if p["reviews"] is not None else 50
     v = per100(p)
@@ -71,7 +79,8 @@ def select(cands):
         picks.append({**p, "category": "필수", "qty": m["qty"], "must": True, "label": m["label"]})
 
     for cat, cfg in C.CATEGORIES.items():
-        pool = sorted((p for p in cands if in_cat(p, cfg) and p["no"] not in used),
+        src = [p for p in all_ if _pack_ok(p)] if cfg.get("pack") else cands
+        pool = sorted((p for p in src if in_cat(p, cfg) and p["no"] not in used),
                       key=lambda p: -_score(p))
         chosen, seen_first = [], {}
         for p in pool:  # 같은 브랜드/첫 단어 중복 방지 -> 종류 다양화
