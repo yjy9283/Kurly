@@ -2,7 +2,7 @@
 
 ## 사용법
 ```bash
-pip install requests openpyxl
+pip install requests xlsxwriter
 python -m snack.run            # 컬리 검색 크롤링 -> 선정 -> 다과_구매목록.xlsx
 python -m snack.run --offline  # 저장된 data/candidates.json 으로 재선정만
 ```
