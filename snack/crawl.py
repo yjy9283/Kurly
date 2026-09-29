@@ -35,7 +35,7 @@ def _items(resp):
     out = []
     def walk(o):
         if isinstance(o, dict):
-            if "no" in o and "name" in o and ("sales_price" in o or "discounted_price" in o):
+            if "no" in o and "name" in o and ("salesPrice" in o or "sales_price" in o):
                 out.append(o); return
             for v in o.values(): walk(v)
         elif isinstance(o, list):
@@ -45,15 +45,16 @@ def _items(resp):
 
 
 def _norm(it, keyword):
-    sale = it.get("sales_price") or 0
-    price = it.get("discounted_price") or sale
+    sale = it.get("salesPrice") or it.get("sales_price") or 0
+    price = it.get("discountedPrice") or it.get("discounted_price") or sale
     return {
-        "no": it["no"], "name": it["name"], "short_desc": it.get("short_description", ""),
+        "no": it["no"], "name": it["name"], "short_desc": it.get("shortDescription", ""),
         "price": int(price), "list_price": int(sale),
-        "discount_rate": it.get("discount_rate") or 0,
-        "reviews": _num(it.get("review_count")), "sold_out": bool(it.get("is_sold_out")),
+        "discount_rate": it.get("discountRate") or it.get("discount_rate") or 0,
+        "reviews": _num(it.get("reviewCount", it.get("review_count"))),
+        "sold_out": bool(it.get("isSoldOut", it.get("is_sold_out"))) or it.get("isPurchaseStatus") is False,
         "url": f"https://www.kurly.com/goods/{it['no']}",
-        "image": it.get("product_vertical_medium_url") or it.get("list_image_url", ""),
+        "image": it.get("productVerticalMediumUrl") or it.get("listImageUrl", ""),
         "keyword": keyword,
     }
 
