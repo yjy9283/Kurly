@@ -18,3 +18,7 @@ python -m snack.run --offline  # 저장된 data/candidates.json 으로 재선정
 ## 주의
 - 비공식 웹 API라 필드명이 바뀔 수 있음(방어적 파싱). 결과 없으면 `data/raw/*.json` 확인
 - 배송비, 최종 재고/가격은 주문 전 컬리에서 재확인
+
+## 서버에서 컬리 접속이 막힌 경우
+kurly.com 을 연 브라우저 콘솔에 `snack/browser_collect.js` 를 붙여넣으면 `candidates.json` 이 내려받아집니다.
+`data/candidates.json` 으로 저장 후 `python -m snack.run --offline`.
