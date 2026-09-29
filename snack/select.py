@@ -85,7 +85,7 @@ def select(cands):
 
     for cat, cfg in C.CATEGORIES.items():
         src = [p for p in all_ if _pack_ok(p)] if cfg.get("pack") else cands
-        pool = sorted((p for p in src if (in_cat_name(p, cfg) if cfg.get("pack") else in_cat(p, cfg)) and p["no"] not in used),
+        pool = sorted((p for p in src if (in_cat_name(p, cfg) if (cfg.get("pack") or cfg.get("name_only")) else in_cat(p, cfg)) and p["price"] <= cfg.get("max_price", 10**9) and p["no"] not in used),
                       key=lambda p: -_score(p))
         chosen, seen_first = [], {}
         for p in pool:  # 같은 브랜드/첫 단어 중복 방지 -> 종류 다양화
