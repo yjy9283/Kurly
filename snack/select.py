@@ -30,6 +30,11 @@ def in_cat(p, cfg):
     return p["keyword"] in cfg["keywords"] or any(k.replace(" ", "") in n for k in cfg["keywords"])
 
 
+def in_cat_name(p, cfg):
+    n = p["name"].replace(" ", "")
+    return any(k.replace(" ", "") in n for k in cfg["keywords"])
+
+
 def _ok(p, check_value=True, check_cat=True):
     if p["sold_out"] or not (C.MIN_UNIT_PRICE <= p["price"] <= C.MAX_UNIT_PRICE): return False
     if any(w in p["name"] for w in C.EXCLUDE_WORDS): return False
@@ -48,7 +53,7 @@ def _pack_ok(p):
     if p["sold_out"] or not (C.MIN_UNIT_PRICE <= p["price"] <= C.MAX_UNIT_PRICE): return False
     if any(w in p["name"] for w in C.EXCLUDE_WORDS): return False
     if p["reviews"] is not None and p["reviews"] < C.MIN_REVIEWS: return False
-    return bool(re.search(r"\d+\s*(입|번들|개입|봉)|미니\s*박스|번들", p["name"]))
+    return bool(re.search(r"\d+\s*(입|번들|개입|봉)|미니\s*박스|번들|소포장|예감|눈을감자", p["name"]))
 
 
 def _score(p):
@@ -80,7 +85,7 @@ def select(cands):
 
     for cat, cfg in C.CATEGORIES.items():
         src = [p for p in all_ if _pack_ok(p)] if cfg.get("pack") else cands
-        pool = sorted((p for p in src if in_cat(p, cfg) and p["no"] not in used),
+        pool = sorted((p for p in src if (in_cat_name(p, cfg) if cfg.get("pack") else in_cat(p, cfg)) and p["no"] not in used),
                       key=lambda p: -_score(p))
         chosen, seen_first = [], {}
         for p in pool:  # 같은 브랜드/첫 단어 중복 방지 -> 종류 다양화
