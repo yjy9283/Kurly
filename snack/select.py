@@ -53,7 +53,7 @@ def _pack_ok(p):
     if p["sold_out"] or not (C.MIN_UNIT_PRICE <= p["price"] <= C.MAX_UNIT_PRICE): return False
     if any(w in p["name"] for w in C.EXCLUDE_WORDS): return False
     if p["reviews"] is not None and p["reviews"] < C.MIN_REVIEWS: return False
-    return bool(re.search(r"\d+\s*(입|번들|개입|봉)|미니\s*박스|번들|소포장|예감|눈을감자", p["name"]))
+    return bool(re.search(r"\d+\s*(입|번들|개입|봉)|미니\s*박스|번들|소포장|예감", p["name"]))
 
 
 def _score(p):
