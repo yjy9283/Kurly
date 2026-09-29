@@ -804,7 +804,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000640850",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/8d214a3c-e277-4471-9500-d55d96327f7c.jpg",
-  "keyword": "개별포장 쿠키"
+  "keyword": "개별포장 쿠키",
+  "cat_ids": [
+   2,
+   13,
+   105,
+   517
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "과자",
+   "간식 쿠키/파이"
+  ],
+  "per100": 1200.0,
+  "options": [
+   [
+    "[오리온] 초코칩쿠키 256g",
+    3070
+   ]
+  ],
+  "volume": "256g (64g X 4개입)"
  },
  {
   "no": 1000339526,
@@ -2351,7 +2371,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000747182",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/93f0b761-08a3-4af0-b880-50e808222283.jpg",
-  "keyword": "개별포장 쿠키"
+  "keyword": "개별포장 쿠키",
+  "cat_ids": [
+   2,
+   13,
+   105,
+   521
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "과자",
+   "스낵"
+  ],
+  "per100": 1190.0,
+  "options": [
+   [
+    "[해태] 아이비 309g",
+    3680
+   ]
+  ],
+  "volume": "309g"
  },
  {
   "no": 5067558,
@@ -3242,7 +3282,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001443814",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/4098e3e5-1442-41d5-8ceb-57bdc3509de7.jpg",
-  "keyword": "개별포장 쿠키"
+  "keyword": "개별포장 쿠키",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 2790.0,
+  "options": [
+   [
+    "[하리보] 메가파티 멀티팩 250g",
+    6980
+   ]
+  ],
+  "volume": "250g"
  },
  {
   "no": 1000336807,
@@ -3477,7 +3537,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002158304",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/ad93635b-3ab5-47ad-a2fc-81c9b18379f6.jpg",
-  "keyword": "개별포장 쿠키"
+  "keyword": "개별포장 쿠키",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 1410.0,
+  "options": [
+   [
+    "[하리보] 슈퍼 펀 젤리 믹스 미니팩 649g",
+    13580
+   ]
+  ],
+  "volume": "649g"
  },
  {
   "no": 5007664,
@@ -4299,7 +4379,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002173532",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/aca4205c-2576-4afc-aa93-0207bbef7e10.jpg",
-  "keyword": "그래놀라바"
+  "keyword": "그래놀라바",
+  "cat_ids": [
+   2,
+   13,
+   106,
+   525
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "시리얼류",
+   "시리얼바"
+  ],
+  "per100": 3486.9999999999995,
+  "options": [
+   [
+    "[씨알로] 단짠단짠 프로틴 (38g X 12개입)",
+    15900
+   ]
+  ],
+  "volume": "38g X 12개입"
  },
  {
   "no": 1000959211,
@@ -5483,7 +5583,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002149673",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/ad8b45f4-1f76-4a82-ac30-2b3466992dc0.jpg",
-  "keyword": "그래놀라바"
+  "keyword": "그래놀라바",
+  "cat_ids": [
+   2,
+   13,
+   106,
+   525
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "시리얼류",
+   "시리얼바"
+  ],
+  "per100": 3629.0,
+  "options": [
+   [
+    "[포스트] 콘푸라이트바 140g",
+    6280
+   ]
+  ],
+  "volume": "35g X 4개입"
  },
  {
   "no": 1000934311,
@@ -5812,7 +5932,51 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002468258",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/8a0fd885-c152-4bef-8745-7d922e905784.jpg",
-  "keyword": "그래놀라바"
+  "keyword": "그래놀라바",
+  "cat_ids": [
+   2,
+   35,
+   223,
+   1187
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "헬스",
+   "프로틴",
+   "프로틴식품"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[랩노쉬] 프로틴 쉐이크 딸기요거트 50g",
+    3900
+   ],
+   [
+    "[랩노쉬] 프로틴 쉐이크 콘시리얼 50g",
+    3900
+   ],
+   [
+    "[랩노쉬] 프로틴 쉐이크 피스타치오 50g",
+    3900
+   ],
+   [
+    "[랩노쉬] 프로틴 쉐이크 곡물퐁 50g",
+    3900
+   ],
+   [
+    "[랩노쉬] 프로틴 쉐이크 딥초코 50g",
+    3900
+   ],
+   [
+    "[랩노쉬] 프로틴 쉐이크 마롱라떼 50g",
+    3900
+   ],
+   [
+    "[랩노쉬] 프로틴 쉐이크 피넛버터 50g",
+    3900
+   ]
+  ],
+  "volume": "50g"
  },
  {
   "no": 1002428308,
@@ -6083,7 +6247,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002173530",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/9c34a053-f470-4ac7-a543-6de973978235.jpg",
-  "keyword": "그래놀라바"
+  "keyword": "그래놀라바",
+  "cat_ids": [
+   2,
+   13,
+   106,
+   525
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "시리얼류",
+   "시리얼바"
+  ],
+  "per100": 3633.0,
+  "options": [
+   [
+    "[씨알로] 79콘 요구르트바 (25g X 12개입) ",
+    10900
+   ]
+  ],
+  "volume": "25g X 12개입"
  },
  {
   "no": 1000085556,
@@ -6954,7 +7138,31 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002202566",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/ad9541ab-4460-4b3c-8725-2b9209c03f21.jpg",
-  "keyword": "그래놀라바"
+  "keyword": "그래놀라바",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   536
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "초콜렛"
+  ],
+  "per100": 11790.0,
+  "options": [
+   [
+    "[넛츠그린] 빈투바 무설탕 다크 초콜릿 72% 117g",
+    13800
+   ],
+   [
+    "[넛츠그린] 빈투바 저당 마일드 초콜릿 크런치 117g",
+    13800
+   ]
+  ],
+  "volume": "117g"
  },
  {
   "no": 1002280229,
@@ -7153,7 +7361,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000554078",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/a33c1c86-ec42-4774-aa4c-e557c6d1dac8.jpg",
-  "keyword": "그래놀라바"
+  "keyword": "그래놀라바",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   536
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "초콜렛"
+  ],
+  "per100": 6759.999999999999,
+  "options": [
+   [
+    "[초코헬스] 제로넛츠 250g",
+    16900
+   ]
+  ],
+  "volume": "250g (25g X 10입)"
  },
  {
   "no": 1000341535,
@@ -7322,7 +7550,31 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002324212",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/fdb6003f-afc6-4d61-84d1-f16a75894ebb.jpg",
-  "keyword": "그래놀라바"
+  "keyword": "그래놀라바",
+  "cat_ids": [
+   2,
+   13,
+   105,
+   517
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "과자",
+   "간식 쿠키/파이"
+  ],
+  "per100": 3910.0,
+  "options": [
+   [
+    "[이메이] 아몬드 크런치초코 밀크 140g",
+    5480
+   ],
+   [
+    "[이메이] 아몬드 크런치초코 다크 140g",
+    5480
+   ]
+  ],
+  "volume": "140g"
  },
  {
   "no": 1000017264,
@@ -8138,7 +8390,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/5110063",
   "image": "https://img-cf.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/shop/data/goods/1648204979110l0.jpg",
-  "keyword": "눈을감자"
+  "keyword": "눈을감자",
+  "cat_ids": [
+   2,
+   13,
+   105,
+   521
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "과자",
+   "스낵"
+  ],
+  "per100": 2800.0,
+  "options": [
+   [
+    "[해태] 구운감자 27g x 5입",
+    3980
+   ]
+  ],
+  "volume": "27g X 5개입"
  },
  {
   "no": 1000640854,
@@ -8830,7 +9102,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000806021",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/8ebe71b9-b7b3-4096-ae56-72dce1f1961d.jpg",
-  "keyword": "눈을감자"
+  "keyword": "눈을감자",
+  "cat_ids": [
+   2,
+   13,
+   105,
+   521
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "과자",
+   "스낵"
+  ],
+  "per100": 1090.0,
+  "options": [
+   [
+    "[크라운] 신짱 고구마맛탕맛 245g",
+    2880
+   ]
+  ],
+  "volume": "245g"
  },
  {
   "no": 1000166566,
@@ -8934,7 +9226,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/5077459",
   "image": "https://img-cf.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/shop/data/goods/1625031602226l0.jpg",
-  "keyword": "눈을감자"
+  "keyword": "눈을감자",
+  "cat_ids": [
+   2,
+   13,
+   105,
+   521
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "과자",
+   "스낵"
+  ],
+  "per100": 1180.0,
+  "options": [
+   [
+    "[크라운] 신짱 245g",
+    2880
+   ]
+  ],
+  "volume": "294g"
  },
  {
   "no": 5073031,
@@ -14324,7 +14636,35 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001974148",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/afcc49fd-6838-4d0c-8707-213c65f44c11.jpg",
-  "keyword": "로투스"
+  "keyword": "로투스",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 5230.0,
+  "options": [
+   [
+    "[부르본] 샤리모니 포도맛 일본젤리 57g",
+    2980
+   ],
+   [
+    "[부르본] 샤리모니 요거트맛 일본젤리 57g",
+    2980
+   ],
+   [
+    "[부르본] 샤리모니 복숭아맛 일본젤리 57g",
+    2980
+   ]
+  ],
+  "volume": "57g"
  },
  {
   "no": 1000975389,
@@ -14404,7 +14744,47 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001173981",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/93f10bbd-bb11-4b69-84fa-23ed22366576.jpg",
-  "keyword": "로투스"
+  "keyword": "로투스",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   537
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "캔디"
+  ],
+  "per100": 5510.0,
+  "options": [
+   [
+    "[세이카] 본탄 아메 45g",
+    2480
+   ],
+   [
+    "[세이카] 파인애플 아메 45g",
+    2480
+   ],
+   [
+    "[세이카] 고구마 카라멜 63g",
+    2700
+   ],
+   [
+    "[세이카] 본탄 아메 45g X 10개입",
+    22980
+   ],
+   [
+    "[세이카] 파인애플 아메 45g X 10개입",
+    22980
+   ],
+   [
+    "[세이카] 고구마 카라멜 63g X 10개입",
+    25380
+   ]
+  ],
+  "volume": "옵션별 상이"
  },
  {
   "no": 1002010934,
@@ -15922,7 +16302,47 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001173968",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/2f298847-f2f8-4828-a73f-30c34fc0ccb5.jpg",
-  "keyword": "로투스"
+  "keyword": "로투스",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   537
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "캔디"
+  ],
+  "per100": 5510.0,
+  "options": [
+   [
+    "[세이카] 복숭아 모찌 젤리 32g",
+    2200
+   ],
+   [
+    "[세이카] 라무네 모찌 젤리 32g",
+    2200
+   ],
+   [
+    "[세이카] 초코 모찌 젤리 32g",
+    2200
+   ],
+   [
+    "[세이카] 본탄 아메 45g",
+    2480
+   ],
+   [
+    "[세이카] 파인애플 아메 45g",
+    2480
+   ],
+   [
+    "[세이카] 고구마 카라멜 63g",
+    2700
+   ]
+  ],
+  "volume": "옵션별 상이"
  },
  {
   "no": 1002459742,
@@ -17311,7 +17731,31 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001443781",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/c9967be4-1349-45dd-93f5-69e1761588a8.jpg",
-  "keyword": "마가렛트"
+  "keyword": "마가렛트",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   537
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "캔디"
+  ],
+  "per100": 4000.0,
+  "options": [
+   [
+    "[마즈] 스키틀즈 젤리 후르츠 믹스 42.5g",
+    1700
+   ],
+   [
+    "[마즈] 스키틀즈 젤리 후르츠 요거트향 42.5g",
+    1700
+   ]
+  ],
+  "volume": ""
  },
  {
   "no": 5043597,
@@ -18152,7 +18596,55 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001074044",
   "image": "https://3p-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/files/20260805/e53e717a-cdc9-4635-9045-7e8559623030.jpg",
-  "keyword": "마들렌"
+  "keyword": "마들렌",
+  "cat_ids": [
+   2,
+   3,
+   39,
+   233
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "가구/인테리어",
+   "침구/커튼",
+   "침구"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[누비지오] 아뜰리에 효성M2 알러지케어 먼지없는 베개커버 8colors (01 오키드)",
+    16900
+   ],
+   [
+    "[누비지오] 아뜰리에 효성M2 알러지케어 먼지없는 베개커버 8colors (02 마샬)",
+    16900
+   ],
+   [
+    "[누비지오] 아뜰리에 효성M2 알러지케어 먼지없는 베개커버 8colors (03 잊지못할 마들렌)",
+    16900
+   ],
+   [
+    "[누비지오] 아뜰리에 효성M2 알러지케어 먼지없는 베개커버 8colors (04 에비앙)",
+    16900
+   ],
+   [
+    "[누비지오] 아뜰리에 효성M2 알러지케어 먼지없는 베개커버 8colors (05 나폴리)",
+    16900
+   ],
+   [
+    "[누비지오] 아뜰리에 효성M2 알러지케어 먼지없는 베개커버 8colors (06 로랑)",
+    16900
+   ],
+   [
+    "[누비지오] 아뜰리에 효성M2 알러지케어 먼지없는 베개커버 8colors (07 바인 화이트)",
+    16900
+   ],
+   [
+    "[누비지오] 아뜰리에 효성M2 알러지케어 먼지없는 베개커버 8colors (08 바인 그레이)",
+    16900
+   ]
+  ],
+  "volume": ""
  },
  {
   "no": 1001064938,
@@ -24811,7 +25303,39 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000760733",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/73fea045-8efd-4e33-b340-7a20b77c2bee.jpg",
-  "keyword": "버터쿠키"
+  "keyword": "버터쿠키",
+  "cat_ids": [
+   2,
+   13,
+   105,
+   1415
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "과자",
+   "비스킷/크래커/샌드"
+  ],
+  "per100": 5870.0,
+  "options": [
+   [
+    "[아티장 비스킷] 밀러스 베이커앤바리스타 바닐라 비스킷 120g",
+    8800
+   ],
+   [
+    "[아티장 비스킷] 밀러스 베이커앤바리스타 스파이스드 카라멜 비스킷 120g",
+    8800
+   ],
+   [
+    "[아티장 비스킷] 밀러스 베이커앤바리스타 더블초콜릿 비스킷 120g",
+    8800
+   ],
+   [
+    "[아티장 비스킷] 밀러스 베이커앤바리스타 사워체리 비스킷 120g",
+    8800
+   ]
+  ],
+  "volume": "120g"
  },
  {
   "no": 1000235857,
@@ -25832,7 +26356,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002129127",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/26653e68-b977-424b-9ecc-6faba17f7f59.png",
-  "keyword": "빅파이"
+  "keyword": "빅파이",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   537
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "캔디"
+  ],
+  "per100": 1800.0,
+  "options": [
+   [
+    "[츄파춥스] 피즈캔디 90g",
+    1620
+   ]
+  ],
+  "volume": "90g"
  },
  {
   "no": 5060999,
@@ -26029,7 +26573,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001407041",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/0c3a10b6-7b68-4c83-9475-ead0f3cee963.jpg",
-  "keyword": "빅파이"
+  "keyword": "빅파이",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   537
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "캔디"
+  ],
+  "per100": 1390.0,
+  "options": [
+   [
+    "[크라운] 땅콩카라멜 720g",
+    9980
+   ]
+  ],
+  "volume": "720g"
  },
  {
   "no": 1001793061,
@@ -26498,7 +27062,31 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002127792",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/57b0c6e6-577a-4bc6-9b95-8582e4887f76.jpg",
-  "keyword": "빅파이"
+  "keyword": "빅파이",
+  "cat_ids": [
+   2,
+   22,
+   151,
+   1051
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "베이커리/디저트",
+   "베이커리 빵",
+   "페이스트리"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[아티제] 코르네파이 애플밀크티 (55g X 3개)",
+    12000
+   ],
+   [
+    "[아티제] 코르네파이 발로나초코 (55g X 3개)",
+    12000
+   ]
+  ],
+  "volume": "165g (55g X 3개)"
  },
  {
   "no": 1002422231,
@@ -29945,7 +30533,31 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000927112",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/5bec756d-faa4-4e57-8f12-3df436c7d2aa.jpg",
-  "keyword": "에이스 크래커"
+  "keyword": "에이스 크래커",
+  "cat_ids": [
+   2,
+   13,
+   105,
+   1415
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "과자",
+   "비스킷/크래커/샌드"
+  ],
+  "per100": 2770.0,
+  "options": [
+   [
+    "[그레타] 올리브 오레가노 크래커 120g",
+    3500
+   ],
+   [
+    "[그레타] 시즌스 그리너리  크래커 120g",
+    3500
+   ]
+  ],
+  "volume": "120g (30g X 4봉지)"
  },
  {
   "no": 1001429333,
@@ -30451,7 +31063,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000263120",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/9095f40d-99c4-4ff3-8fb9-e11b7d0e1a95.jpg",
-  "keyword": "예감"
+  "keyword": "예감",
+  "cat_ids": [
+   2,
+   13,
+   105,
+   518
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "과자",
+   "감자칩"
+  ],
+  "per100": 2490.0,
+  "options": [
+   [
+    "[해태] 허니버터칩 4번들 (40g x 4묶음)",
+    3980
+   ]
+  ],
+  "volume": "40g x 4개입"
  },
  {
   "no": 1000891658,
@@ -30510,7 +31142,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/5061326",
   "image": "https://img-cf.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/shop/data/goods/1608264957167l0.jpg",
-  "keyword": "예감"
+  "keyword": "예감",
+  "cat_ids": [
+   2,
+   13,
+   105,
+   521
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "과자",
+   "스낵"
+  ],
+  "per100": 1230.0,
+  "options": [
+   [
+    "[농심] 새우깡 400g (지퍼백)",
+    4910
+   ]
+  ],
+  "volume": "400g"
  },
  {
   "no": 1000927098,
@@ -32316,7 +32968,51 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002114085",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/d064840d-a491-4101-908c-1ebbf68e37de.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 4130.0,
+  "options": [
+   [
+    "[위니비니] 멀티사우어 젤리 브릭스 60g",
+    2980
+   ],
+   [
+    "[위니비니] 멀티사우어 미니 젤리벨트 60g",
+    2980
+   ],
+   [
+    "[위니비니] 사우어 딸기향 젤리벨트 60g",
+    2980
+   ],
+   [
+    "[위니비니] 사우어 블랙베리향 젤리벨트 60g",
+    2980
+   ],
+   [
+    "[위니비니] 사우어 콜라향 젤리벨트 65g",
+    2980
+   ],
+   [
+    "[위니비니] 멀티사우어 스파게티모양 젤리 60g",
+    2980
+   ],
+   [
+    "[위니비니] 사우어 딸기향 스파게티모양 젤리 60g",
+    2980
+   ]
+  ],
+  "volume": "60g"
  },
  {
   "no": 1000558079,
@@ -32378,7 +33074,35 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001171175",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/2a6ddf0a-fff1-4d10-9f40-323fc2355bb8.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 2840.0,
+  "options": [
+   [
+    "[프루팁스] 과일맛 젤리 오리지널 140g",
+    3980
+   ],
+   [
+    "[프루팁스] 과일맛 젤리 트로피컬 140g",
+    3980
+   ],
+   [
+    "[프루팁스] 과일맛 젤리 리치 140g",
+    3980
+   ]
+  ],
+  "volume": "140g"
  },
  {
   "no": 1002171441,
@@ -32391,7 +33115,35 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002171441",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/b6a5e23c-a98f-4194-8b1b-c3a0238c80a7.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 1960.0000000000002,
+  "options": [
+   [
+    "[쿠위] 탑후르츠 젤리 망고맛 280g",
+    5490
+   ],
+   [
+    "[쿠위] 탑후르츠 젤리 청포도맛 280g",
+    5490
+   ],
+   [
+    "[쿠위] 탑후르츠 젤리 믹스 280g",
+    5490
+   ]
+  ],
+  "volume": "280g"
  },
  {
   "no": 1002042866,
@@ -32404,7 +33156,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002042866",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/a4978935-b15b-4c14-98ef-20970325fb70.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 2140.0,
+  "options": [
+   [
+    "[체리쉬] 망고 소프트 젤리 280g",
+    5990
+   ]
+  ],
+  "volume": "280g"
  },
  {
   "no": 1000568647,
@@ -32530,7 +33302,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002035523",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/28f38f1f-62ad-4ea6-8984-e3bde80240ce.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 2480.0,
+  "options": [
+   [
+    "[후르츠거셔스] 트로피칼 펀치 젤리 12봉입",
+    11900
+   ]
+  ],
+  "volume": "480g"
  },
  {
   "no": 5051654,
@@ -32626,7 +33418,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002033411",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/ec7d34a6-6002-4bc3-bc36-0ff448c9461b.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 5500.0,
+  "options": [
+   [
+    "[피에로구르망] 코코리코 젤리 100g",
+    5500
+   ]
+  ],
+  "volume": "100g"
  },
  {
   "no": 1001974138,
@@ -32652,7 +33464,31 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002042869",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/5ecfc210-ebe7-4d57-a9ee-a40ec599f7ce.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 4860.0,
+  "options": [
+   [
+    "[스퀴즈팝] 딸기맛 72g",
+    3500
+   ],
+   [
+    "[스퀴즈팝] 포도맛 72g",
+    3500
+   ]
+  ],
+  "volume": "72g"
  },
  {
   "no": 1001974140,
@@ -32717,7 +33553,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002033417",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/70f63f8c-1274-46c9-b9a4-769109c4136f.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 5500.0,
+  "options": [
+   [
+    "[피에로구르망] 코멧 젤리 100g",
+    5500
+   ]
+  ],
+  "volume": "100g"
  },
  {
   "no": 1002136267,
@@ -32730,7 +33586,35 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002136267",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/0c5c1df4-b7f1-4eed-b97e-78dc39ea6f72.png",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 4000.0,
+  "options": [
+   [
+    "[피크닉] 젤리 사과 45g",
+    1800
+   ],
+   [
+    "[피크닉] 젤리 청포도 45g",
+    1800
+   ],
+   [
+    "[피크닉] 젤리 복숭아 45g",
+    1800
+   ]
+  ],
+  "volume": "45g"
  },
  {
   "no": 1000971514,
@@ -32782,7 +33666,39 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001989817",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/1246a5fe-c2ba-4d35-8964-5aaf14f50a4e.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 1880.0,
+  "options": [
+   [
+    "[오리히로] 곤약젤리 제로 포도맛 1박스 (130g x 8개입)",
+    19500
+   ],
+   [
+    "[오리히로] 곤약젤리 제로 머스캣맛 1박스 (130g x 8개입)",
+    19500
+   ],
+   [
+    "[오리히로] 곤약젤리 제로 복숭아맛 130g (130g x 8개입)",
+    19500
+   ],
+   [
+    "[오리히로] 제로 곤약젤리 사과맛 1박스 (130g x 8개입)",
+    19500
+   ]
+  ],
+  "volume": "130g x 8개입"
  },
  {
   "no": 1001084575,
@@ -32852,7 +33768,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000094736",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/f74943bb-5774-4201-9a30-6a2071a12e02.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 6820.0,
+  "options": [
+   [
+    "[야미얼스] 유기농 웜 젤리 237.6g (19.8g x 12입)",
+    16200
+   ]
+  ],
+  "volume": "237.6g"
  },
  {
   "no": 1002185514,
@@ -32865,7 +33801,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002185514",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/7f8c7696-b590-4c3d-8e87-3a3ca90f5499.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 2810.0,
+  "options": [
+   [
+    "[캇예스] 비건 젤리 파티프레드 210g",
+    5900
+   ]
+  ],
+  "volume": "210g"
  },
  {
   "no": 1000242952,
@@ -32878,7 +33834,31 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000242952",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/6a842af1-3c45-4a37-85a1-14deb37a8ce9.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 2480.0,
+  "options": [
+   [
+    "[동아제약] 박카스맛 젤리 8개입",
+    9900
+   ],
+   [
+    "[동아제약] 박카스맛 젤리 신맛 8개입",
+    9900
+   ]
+  ],
+  "volume": ""
  },
  {
   "no": 1000638423,
@@ -32950,7 +33930,43 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001297496",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/c8be0084-14e7-49d2-bcf3-6700e047e86e.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   35,
+   1779,
+   1780
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "헬스",
+   "유아동 가공식품",
+   "유아동 스낵"
+  ],
+  "per100": 7450.0,
+  "options": [
+   [
+    "[캐치티니핑] 츄잉정 딸기맛 52.5g",
+    3000
+   ],
+   [
+    "[캐치티니핑] 츄잉정 초코맛 52.5g",
+    3000
+   ],
+   [
+    "[캐치티니핑] 비타쮸 28g x 5개입",
+    4000
+   ],
+   [
+    "[캐치티니핑] 바나나우유 젤리 50g",
+    2200
+   ],
+   [
+    "[캐치티니핑] 자일리톨 40g",
+    2980
+   ]
+  ],
+  "volume": "옵션 별 상이"
  },
  {
   "no": 1002378481,
@@ -32963,7 +33979,39 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002378481",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/5219c062-3d70-402c-82d2-a96dc3b0c694.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 1880.0,
+  "options": [
+   [
+    "[오리히로] 저칼로리 곤약젤리 복숭아맛 1박스 (130g x 8개입)",
+    19500
+   ],
+   [
+    "[오리히로] 저칼로리 곤약젤리 머스캣맛 1박스 (130g x 8개입)",
+    19500
+   ],
+   [
+    "[오리히로] 저칼로리 곤약젤리 포도맛 1박스 (130g x 8개입)",
+    19500
+   ],
+   [
+    "[오리히로] 저칼로리 곤약젤리 오렌지맛 1박스 (130g x 8개입)",
+    19500
+   ]
+  ],
+  "volume": "130g x 8입"
  },
  {
   "no": 5138785,
@@ -33055,7 +34103,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000094261",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/344e2bf4-7f20-4c1d-9eff-a55095ae08fc.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 6820.0,
+  "options": [
+   [
+    "[야미얼스] 유기농 베어 젤리 237.6g (19.8g x 12입)",
+    16200
+   ]
+  ],
+  "volume": "237.6g"
  },
  {
   "no": 1001438228,
@@ -33068,7 +34136,31 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001438228",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/c31ed581-49f4-40db-92c7-0958fcbc92f3.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 5300.0,
+  "options": [
+   [
+    "[위니비니] 스누피 가방 틴케이스 (레드) 160g",
+    9400
+   ],
+   [
+    "[위니비니] 피너츠 가방 틴케이스 (핑크블루) 160g",
+    9400
+   ]
+  ],
+  "volume": "160g"
  },
  {
   "no": 1001861627,
@@ -33107,7 +34199,51 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002114073",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/acd6693b-bb54-41b4-baab-147566882d39.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 4130.0,
+  "options": [
+   [
+    "[위니비니] 데이지 구미 60g",
+    2980
+   ],
+   [
+    "[위니비니] 트로피컬 과일모양 구미 60g",
+    2980
+   ],
+   [
+    "[위니비니] 미니 버터플라이 구미 60g",
+    2980
+   ],
+   [
+    "[위니비니] 미니 웜즈 구미 60g",
+    2980
+   ],
+   [
+    "[위니비니] 와일드 스트로베리 구미 60g",
+    2980
+   ],
+   [
+    "[위니비니] 스트로베리크림 구미 60g",
+    2980
+   ],
+   [
+    "[위니비니] 트리플컬러 베리모양 구미 60g",
+    2980
+   ]
+  ],
+  "volume": "60g"
  },
  {
   "no": 1002476101,
@@ -33120,7 +34256,39 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002476101",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/a4935cfb-9d63-4849-9cfc-522cca911788.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   1279,
+   1333,
+   1652
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "뷰티 생활",
+   "생활 바디케어",
+   "생활 바디로션/크림/오일"
+  ],
+  "per100": 35400.0,
+  "options": [
+   [
+    "[바세린] 바디밤 젤리스틱 15g",
+    5310
+   ],
+   [
+    "[바세린] 코코아쉬머 젤리스틱 15g",
+    5310
+   ],
+   [
+    "[바세린] 바디밤 젤리스틱 40g",
+    10710
+   ],
+   [
+    "[바세린] 코코아쉬머 젤리스틱 40g",
+    10710
+   ]
+  ],
+  "volume": ""
  },
  {
   "no": 1000339507,
@@ -33133,7 +34301,35 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000339507",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/a9b8f0b0-1335-4598-91fa-1aaed0145968.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 1250.0,
+  "options": [
+   [
+    "[젤리블리] 과즙젤리 메가팩 리치 (60g x 20입)",
+    15000
+   ],
+   [
+    "[젤리블리] 과즙젤리 메가팩 애플망고 (60g x 20입)",
+    15000
+   ],
+   [
+    "[젤리블리] 과즙젤리 메가팩 샤인머스캣 (60g x 20입)",
+    15000
+   ]
+  ],
+  "volume": "60g x 20입"
  },
  {
   "no": 1000607507,
@@ -33172,7 +34368,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001144744",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/bc0af54e-754a-4d69-af8c-03ce1bc01741.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 3890.0,
+  "options": [
+   [
+    "[비달] 다이노 젤리 32개입",
+    14400
+   ]
+  ],
+  "volume": "352g (11g X 32개) "
  },
  {
   "no": 1000548776,
@@ -33185,7 +34401,31 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000548776",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/073f9575-c2aa-44ad-9322-a68166b66e88.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 2730.0,
+  "options": [
+   [
+    "[하리보] 해피 스프링 80g",
+    1680
+   ],
+   [
+    "[하리보] 프리마베라 80g",
+    2180
+   ]
+  ],
+  "volume": "80g"
  },
  {
   "no": 1002158302,
@@ -33198,7 +34438,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002158302",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/4d81a64e-407c-43ee-a4e3-c89c38f05e90.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 1410.0,
+  "options": [
+   [
+    "[하리보] 골드베렌 젤리 미니팩 648g",
+    13580
+   ]
+  ],
+  "volume": "648g"
  },
  {
   "no": 1001099482,
@@ -33211,7 +34471,35 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001099482",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/e7ea7df9-0707-486f-8839-cad1473cb981.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 4760.0,
+  "options": [
+   [
+    "[마이노멀] 제로젤리 제로베어 8입",
+    14480
+   ],
+   [
+    "[마이노멀] 제로젤리 사워베어 8입",
+    14480
+   ],
+   [
+    "[마이노멀] 제로젤리 포도베어 8입",
+    14480
+   ]
+  ],
+  "volume": "38g X 8입"
  },
  {
   "no": 1000739495,
@@ -33308,7 +34596,31 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001272786",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/83e2d21f-c197-4f7d-9f02-23171e492e34.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 600.0,
+  "options": [
+   [
+    "[코쿤] 망고 컵 푸딩 6개입",
+    4280
+   ],
+   [
+    "[코쿤] 트로피컬 컵 푸딩 6개입",
+    4280
+   ]
+  ],
+  "volume": " 118g X 6개입"
  },
  {
   "no": 1000262904,
@@ -33366,7 +34678,35 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000213874",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/83a4da35-a4c6-4e44-a396-cc490ee44825.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   35,
+   1779,
+   1780
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "헬스",
+   "유아동 가공식품",
+   "유아동 스낵"
+  ],
+  "per100": 3979.9999999999995,
+  "options": [
+   [
+    "[아이배냇] 꼬마 끙아 젤리 푸룬 (20g x 5개입)",
+    3980
+   ],
+   [
+    "[아이배냇] 꼬마 끙아 젤리 사과 (20g x 5개입)",
+    3980
+   ],
+   [
+    "[아이배냇] 꼬마 끙아 젤리 포도 (20g x 5개입)",
+    3980
+   ]
+  ],
+  "volume": "100g"
  },
  {
   "no": 1000148002,
@@ -33491,7 +34831,35 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000490141",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/fa22dbe3-91f4-4331-be19-237e6699abf1.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 2000.0,
+  "options": [
+   [
+    "[만난라이프] 짜먹는 곤약젤리 복숭아맛 150g*6입",
+    18000
+   ],
+   [
+    "[만난라이프] 짜먹는 곤약젤리 포도맛 150g*6입",
+    18000
+   ],
+   [
+    "[만난라이프] 짜먹는 곤약젤리 사과맛 150g*6입",
+    18000
+   ]
+  ],
+  "volume": "150g X 6개"
  },
  {
   "no": 1000204520,
@@ -33537,7 +34905,35 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000206788",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/e6bc77cb-2206-4d3c-9f3f-a915008aee4d.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 1030.0,
+  "options": [
+   [
+    "[테일러] 애프터딥워터 코코젤리밥 사과 (150ml x 10개입) ",
+    19400
+   ],
+   [
+    "[테일러] 애프터딥워터 코코젤리밥 복숭아 (150ml x 10개입) ",
+    19400
+   ],
+   [
+    "[테일러] 애프터딥워터 코코젤리밥 샤인머스캣 (150ml x 10개입) ",
+    19400
+   ]
+  ],
+  "volume": "150g X 10팩"
  },
  {
   "no": 1001052339,
@@ -33550,7 +34946,55 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001052339",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/78fdf790-7187-4bae-972e-9bc1cd59ea71.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   35,
+   221,
+   939
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "헬스",
+   "유아동 헬스",
+   "유아동 건강식품"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[락피도] 슈팅스타 캐치티니핑 뼈가튼튼 칼슘젤리 (15일분)",
+    18000
+   ],
+   [
+    "[락피도] 슈팅스타 캐치티니핑영양가득 비타젤리 (15일분)",
+    18000
+   ],
+   [
+    "[락피도] 슈팅스타 캐치티니핑아연가득 면역젤리 (15일분)",
+    18000
+   ],
+   [
+    "[락피도] 슈팅스타 캐치티니핑몸이튼튼 철분젤리 (15일분)",
+    18000
+   ],
+   [
+    "[락피도] 캐치티니핑 시즌6 매일푸푸 쾌변젤리 (18일분)",
+    18000
+   ],
+   [
+    "[락피도] 캐치티니핑 시즌6 아이클때 아르기닌젤리 (18일분)",
+    18000
+   ],
+   [
+    "[락피도] 캐치티니핑 시즌6 기운쑥쑥 홍삼젤리 (18일분)",
+    18000
+   ],
+   [
+    "[락피도] 캐치티니핑 시즌6 아이베라 알로에젤리 (18일분)",
+    18000
+   ]
+  ],
+  "volume": "225g (15g X 15포)"
  },
  {
   "no": 1001391063,
@@ -33617,7 +35061,31 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001472310",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/f74cf1e8-50a1-4976-8b07-397f160f4f20.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   35,
+   222,
+   944
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "헬스",
+   "이너뷰티",
+   "기타 이너뷰티"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[자임] 콜라겐 애사비 젤리 14포",
+    7900
+   ],
+   [
+    "[자임] 콜라겐 레몬 젤리 14포",
+    7900
+   ]
+  ],
+  "volume": "210g"
  },
  {
   "no": 1000655825,
@@ -33630,7 +35098,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000655825",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/985e1cdb-efc6-45cf-898f-5b773afcc4ad.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   35,
+   217,
+   922
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "헬스",
+   "다이어트",
+   "가공 다이어트"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[GRN] 빨강이 다이어트 젤리 (14일분)",
+    17900
+   ]
+  ],
+  "volume": "20g x 14포"
  },
  {
   "no": 1002064452,
@@ -33705,7 +35193,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002348926",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/89aacf41-7e59-478f-a99b-6fbe5242666e.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   35,
+   222,
+   944
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "헬스",
+   "이너뷰티",
+   "기타 이너뷰티"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[메이큐헬씨] 애플로진 UV 촉촉광 젤리 (7일분)",
+    9900
+   ]
+  ],
+  "volume": "140g"
  },
  {
   "no": 5000518,
@@ -33965,7 +35473,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002129130",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/85893ce7-b50f-4fc2-9c81-b8e99a78d828.png",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   537
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "캔디"
+  ],
+  "per100": 1410.0,
+  "options": [
+   [
+    "[멘토스] 미니 푸르티 31개입 310g",
+    4380
+   ]
+  ],
+  "volume": "310g"
  },
  {
   "no": 1002488665,
@@ -34115,7 +35643,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002557921",
   "image": "https://3p-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/files/20260917/84f7dbdf-e3a3-4fbc-9586-3b859284aefc.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   5,
+   52,
+   284
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "반려동물",
+   "반려동물 용품",
+   "강아지 장난감"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[바잇미] 판다 젤리곰 장난감 (삑삑) (단품)",
+    8900
+   ]
+  ],
+  "volume": ""
  },
  {
   "no": 1001574561,
@@ -34232,7 +35780,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002042327",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/211cd7c5-4ba2-41cb-9c2b-cd9f9ec3d1d7.png",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   536
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "초콜렛"
+  ],
+  "per100": 3810.0,
+  "options": [
+   [
+    "[롯데] 말랑카우 초코볼젤리 초코우유 134g",
+    5100
+   ]
+  ],
+  "volume": "134g (16.8g x 8봉)"
  },
  {
   "no": 1001421313,
@@ -34271,7 +35839,31 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000268781",
   "image": "https://3p-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/files/c775aa74-e5e4-4f2a-bf3e-b72816629004/5d364f52-1e50-40e9-9293-00ac6f3674f2.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   3,
+   38,
+   230
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "가구/인테리어",
+   "조명/소품",
+   "인테리어소품"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[데일리라이크] 젤리 베어 발매트 (01 Mango)",
+    10800
+   ],
+   [
+    "[데일리라이크] 젤리 베어 발매트 (02 Flower)",
+    14000
+   ]
+  ],
+  "volume": ""
  },
  {
   "no": 1002304839,
@@ -34375,7 +35967,39 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001980822",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/76afbc42-0b22-47d1-ab34-6bfffc2759b1.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 4970.0,
+  "options": [
+   [
+    "[위니비니] 허그 앤 키세스 구미 60g",
+    2980
+   ],
+   [
+    "[위니비니] 사우어 하트모양 구미 60g",
+    2980
+   ],
+   [
+    "[위니비니] 미니 하트모양 구미 60g",
+    2980
+   ],
+   [
+    "[위니비니] 큐피드 사우어 스무치스 구미 60g",
+    2980
+   ]
+  ],
+  "volume": "60g"
  },
  {
   "no": 1001792290,
@@ -34388,7 +36012,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001792290",
   "image": "https://3p-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/files/20251126/cd2ff500-ee22-4a9b-a14b-d69137396560.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   10,
+   88,
+   452
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "유아동",
+   "완구/도서",
+   "학습/교육완구"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[젤리블록스] 트랙터 세트 (단품)",
+    18900
+   ]
+  ],
+  "volume": null
  },
  {
   "no": 1000545234,
@@ -34401,7 +36045,63 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000545234",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/3b0f9299-2690-4df0-b0e9-d71f94917987.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   1280,
+   1344,
+   1720
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "뷰티 인디",
+   "인디 메이크업",
+   "인디 치크/하이라이터"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[토니모리] 치크톤 젤리 블러셔 01 포그핑크 3.5g",
+    11900
+   ],
+   [
+    "[토니모리] 치크톤 젤리 블러셔 02 누디앰버 3.5g",
+    11900
+   ],
+   [
+    "[토니모리] 치크톤 젤리 블러셔 03 로즈쿼츠 3.5g",
+    11900
+   ],
+   [
+    "[토니모리] 치크톤 젤리 블러셔 04 퍼지피치 3.5g",
+    11900
+   ],
+   [
+    "[토니모리] 치크톤 젤리 블러셔 05 발레핑크 3.5g",
+    11900
+   ],
+   [
+    "[토니모리] 치크톤 젤리 블러셔 06 버블핑크 3.5g",
+    11900
+   ],
+   [
+    "[토니모리] 치크톤 젤리 블러셔 07 레어라벤더 3.5g",
+    11900
+   ],
+   [
+    "[토니모리] 치크톤 젤리 블러셔 08 리본핑크 3.5g",
+    11900
+   ],
+   [
+    "[토니모리] 치크톤 젤리 블러셔 09 헤이즐쿠키 3.5g ",
+    11900
+   ],
+   [
+    "[토니모리] 치크톤 젤리 블러셔 10 샌드쿠키 3.5g ",
+    11900
+   ]
+  ],
+  "volume": ""
  },
  {
   "no": 1000817760,
@@ -34460,7 +36160,35 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002286318",
   "image": "https://3p-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/files/97805680-a6cc-437d-837f-4f7c39ef68fd/66a077fd-4b46-4e20-a690-7b1b82ca7b20.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   5,
+   52,
+   284
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "반려동물",
+   "반려동물 용품",
+   "강아지 장난감"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[바잇미] 젤리곰 실리콘 노즈워크 볼 (3 colors) (핑크)",
+    6900
+   ],
+   [
+    "[바잇미] 젤리곰 실리콘 노즈워크 볼 (3 colors) (옐로우)",
+    6900
+   ],
+   [
+    "[바잇미] 젤리곰 실리콘 노즈워크 볼 (3 colors) (블루)",
+    6900
+   ]
+  ],
+  "volume": ""
  },
  {
   "no": 1002304731,
@@ -34486,7 +36214,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001435712",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/535d677e-6dbc-4484-bc35-ee9f818446ca.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   1280,
+   1349,
+   1745
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "뷰티 인디",
+   "인디 스킨케어",
+   "인디 마스크/팩"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[구달] 어성초 히알루론 수딩 젤리마스크",
+    2700
+   ]
+  ],
+  "volume": ""
  },
  {
   "no": 1002421557,
@@ -34551,7 +36299,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000557269",
   "image": "https://3p-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/files/97805680-a6cc-437d-837f-4f7c39ef68fd/26fbf35d-46ec-45e1-b915-cdf0c01e1cc2.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   5,
+   52,
+   284
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "반려동물",
+   "반려동물 용품",
+   "강아지 장난감"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[바잇미] 젤리곰 라운드 페이스콤 3SET (1개)",
+    20700
+   ]
+  ],
+  "volume": ""
  },
  {
   "no": 1002304481,
@@ -34603,7 +36371,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1001459278",
   "image": "https://3p-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/files/20260413/70dba053-844e-41b3-92c2-792446218acc.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   3,
+   38,
+   230
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "가구/인테리어",
+   "조명/소품",
+   "인테리어소품"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[데일리라이크] 젤리 베어 멀티 칫솔꽂이 (스탠드/부착 겸용) (단품)",
+    13500
+   ]
+  ],
+  "volume": null
  },
  {
   "no": 1001231951,
@@ -34679,7 +36467,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000515318",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/67446d2b-43c8-4923-9b92-5c81991ef716.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   1280,
+   1349,
+   1752
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "뷰티 인디",
+   "인디 스킨케어",
+   "인디 크림"
+  ],
+  "per100": 18900.0,
+  "options": [
+   [
+    "[김정문알로에] 큐어 리알로에 젤리 크림 100ml",
+    18900
+   ]
+  ],
+  "volume": ""
  },
  {
   "no": 5049956,
@@ -34692,7 +36500,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/5049956",
   "image": "https://img-cf.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/shop/data/goods/1584683999102l0.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   537
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "캔디"
+  ],
+  "per100": 6000.0,
+  "options": [
+   [
+    "[엠오이칼] 키즈 체리맛 캔디 75g",
+    4500
+   ]
+  ],
+  "volume": "75g"
  },
  {
   "no": 5110034,
@@ -34718,7 +36546,331 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1002033078",
   "image": "https://3p-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/files/91fa07bc-090e-4f52-8d3e-bf06569f3884/93b1f5e9-050e-488f-b8bf-e28385f290e9.jpg",
-  "keyword": "젤리"
+  "keyword": "젤리",
+  "cat_ids": [
+   2,
+   4,
+   41,
+   242
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "가전제품",
+   "IT/통신기기",
+   "휴대폰 액세서리"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰17프로맥스,클리어(1개)_S103300082)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰17프로,클리어(1개)_S103300081)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰17에어,클리어(1개)_S103300080)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰17,클리어(1개)_S103300079)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰17e/16e,클리어(1개)_S103300030)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰16프로맥스,클리어(1개)_S103300029)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰16프로,클리어(1개)_S103300028)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰16플러스,클리어(1개)_S103300027)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰16,클리어(1개)_S103300026)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰15프로맥스,클리어(1개)_S103300025)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰15프로,클리어(1개)_S103300024)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰15플러스,클리어(1개)_S103300023)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰15,클리어(1개)_S103300022)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰14프로맥스,클리어(1개)_S103300021)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰14프로,클리어(1개)_S103300020)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰14플러스,클리어(1개)_S103300019)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰14,클리어(1개)_S103300018)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰13프로맥스,클리어(1개)_S103300017)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰13프로,클리어(1개)_S103300016)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰13,클리어(1개)_S103300015)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰13미니,클리어(1개)_S103300014)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰12프로맥스,클리어(1개)_S103300013)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰12/12프로,클리어(1개)_S103300012)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰12미니,클리어(1개)_S103300011)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰11프로맥스,클리어(1개)_S103300010)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰11프로,클리어(1개)_S103300009)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰11,클리어(1개)_S103300008)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰X/XS,클리어(1개)_S103300005)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (아이폰SE3/SE2/8/7,클리어(1개)_S103300003)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S26FE,클리어(1개)_S103300112)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S26울트라,클리어(1개)_S103300085)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S26플러스,클리어(1개)_S103300084)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S26,클리어(1개)_S103300083)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S25엣지,클리어(1개)_S103300054)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S25울트라,클리어(1개)_S103300053)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S24울트라,클리어(1개)_S103300052)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S25플러스/S24플러스,클리어(1개)_S103300051)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S25/S24,클리어(1개)_S103300050)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S24FE,클리어(1개)_S103300049)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S23울트라,클리어(1개)_S103300048)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S23플러스,클리어(1개)_S103300047)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S23,클리어(1개)_S103300046)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S23FE,클리어(1개)_S103300045)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S22울트라,클리어(1개)_S103300044)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S22플러스,클리어(1개)_S103300043)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S22,클리어(1개)_S103300042)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S21울트라,클리어(1개)_S103300041)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S21플러스,클리어(1개)_S103300040)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시S21,클리어(1개)_S103300039)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시노트20,클리어(1개)_S103300057)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시노트20울트라,클리어(1개)_S103300058)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시A53,클리어(1개)_S103300067)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시A24,클리어(1개)_S103300070)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시A34,클리어(1개)_S103300071)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시A54,클리어(1개)_S103300072)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시A25,클리어(1개)_S103300073)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시A35,클리어(1개)_S103300074)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시A55,클리어(1개)_S103300075)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시A16,클리어(1개)_S103300076)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시A26,클리어(1개)_S103300077)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시A56/A36,클리어(1개)_S103300078)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시A37,클리어(1개)_S103300087)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시A57,클리어(1개)_S103300088)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (갤럭시A27,클리어(1개)_S103300086)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (-,-)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (-,-)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (-,-)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (-,-)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (-,-)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (-,-)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (-,-)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (-,-)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (-,-)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (-,-)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (-,-)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (-,-)",
+    9500
+   ],
+   [
+    "[신지모루] 에어쉴드 라이트 슬림 젤리 케이스 (아이폰/갤럭시) (-,-)",
+    9500
+   ]
+  ],
+  "volume": ""
  },
  {
   "no": 1002326624,
@@ -35040,7 +37192,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/5136073",
   "image": "https://img-cf.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/shop/data/goods/1652247725322l0.jpg",
-  "keyword": "찰떡파이"
+  "keyword": "찰떡파이",
+  "cat_ids": [
+   2,
+   30,
+   193,
+   815
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "전통 간식",
+   "떡/한과",
+   "한과"
+  ],
+  "per100": 6290.0,
+  "options": [
+   [
+    "[청년제과] 말랑말랑 흑임자 꿀오랑 (26g X 10개)",
+    16350
+   ]
+  ],
+  "volume": null
  },
  {
   "no": 1002493246,
@@ -38098,7 +40270,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000820405",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/26774c20-108c-411c-bbb9-c6d9e08de3e4.jpg",
-  "keyword": "카스타드"
+  "keyword": "카스타드",
+  "cat_ids": [
+   2,
+   22,
+   151,
+   1051
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "베이커리/디저트",
+   "베이커리 빵",
+   "페이스트리"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[르까도드마비] 모카번 크루아상 90g",
+    5500
+   ]
+  ],
+  "volume": "90g"
  },
  {
   "no": 1000614810,
@@ -44254,7 +46446,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/5081443",
   "image": "https://img-cf.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/shop/data/goods/1637923941258l0.jpeg",
-  "keyword": "파운드케이크"
+  "keyword": "파운드케이크",
+  "cat_ids": [
+   2,
+   22,
+   1026,
+   1044
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "베이커리/디저트",
+   "케이크/타르트",
+   "타르트/파이"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[파스키에] 레몬 머랭 타르트 (80g X 2개입)",
+    11500
+   ]
+  ],
+  "volume": "195g"
  },
  {
   "no": 5071140,
