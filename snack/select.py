@@ -39,7 +39,7 @@ def _ok(p, check_value=True, check_cat=True):
     if p["sold_out"] or not (C.MIN_UNIT_PRICE <= p["price"] <= C.MAX_UNIT_PRICE): return False
     if any(w in p["name"] for w in C.EXCLUDE_WORDS): return False
     if fav(p):
-        return True if not check_cat else bool(p.get("cat_names"))
+        return True if not check_cat or not p.get("cat_names") else "간식" in p["cat_names"] or bool(p["cat_names"][-1] in C.ALLOWED_LEAF)
     if any(w in p["name"] for w in C.BAG_SNACK_WORDS): return False
     if check_cat and (p.get("cat_names") or [None])[-1] not in C.ALLOWED_LEAF: return False
     if p["reviews"] is None or p["reviews"] < C.MIN_REVIEWS: return False
