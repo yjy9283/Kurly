@@ -569,7 +569,27 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/5062899",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/cd336912-e1e5-429d-b51d-2a54717d9e8e.jpg",
-  "keyword": "가성비 과자"
+  "keyword": "가성비 과자",
+  "cat_ids": [
+   2,
+   13,
+   105,
+   1415
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "과자",
+   "비스킷/크래커/샌드"
+  ],
+  "per100": 1450.0,
+  "options": [
+   [
+    "[크라운] 버터와플 316g",
+    4580
+   ]
+  ],
+  "volume": "316g"
  },
  {
   "no": 1000875710,
@@ -20100,7 +20120,51 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/5044322",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/695662de-7713-49a8-a796-64605217a787.jpg",
-  "keyword": "대용량 과자 번들"
+  "keyword": "대용량 과자 번들",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": 2790.0,
+  "options": [
+   [
+    "[하리보] 골드베렌 250g",
+    6980
+   ],
+   [
+    "[하리보] 샤프트 골드베렌 220g",
+    6980
+   ],
+   [
+    "[하리보] 해피콜라향 젤리 250g",
+    6980
+   ],
+   [
+    "[하리보] 스타믹스 250g",
+    6980
+   ],
+   [
+    "[하리보] 메가파티 멀티팩 250g",
+    6980
+   ],
+   [
+    "[하리보] 프루티부시 240g",
+    6980
+   ],
+   [
+    "[하리보] 스위트러브 240g",
+    6980
+   ]
+  ],
+  "volume": "옵션별 상이"
  },
  {
   "no": 5066903,
@@ -21367,7 +21431,39 @@
   "sold_out": false,
   "url": "https://www.kurly.com/goods/1000548850",
   "image": "https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/4013910d-3200-4da7-a922-9c5d0fb2fe55.jpg",
-  "keyword": "로투스"
+  "keyword": "로투스",
+  "cat_ids": [
+   2,
+   13,
+   110,
+   535
+  ],
+  "cat_names": [
+   "CATEGORY",
+   "간식",
+   "초콜렛/젤리/캔디",
+   "젤리"
+  ],
+  "per100": null,
+  "options": [
+   [
+    "[하리보] 샤말로우 파티 150g",
+    3600
+   ],
+   [
+    "[하리보] 샤말로우 핑크앤 화이트 150g",
+    3600
+   ],
+   [
+    "[하리보] 베렌트라움 175g",
+    3480
+   ],
+   [
+    "[하리보] 스위트사우어 베어스 175g",
+    4380
+   ]
+  ],
+  "volume": "옵션별 상이"
  },
  {
   "no": 1002186525,

@@ -42,7 +42,7 @@ def _ok(p, check_value=True, check_cat=True):
         return True if not check_cat else bool(p.get("cat_names"))
     if any(w in p["name"] for w in C.BAG_SNACK_WORDS): return False
     if check_cat and (p.get("cat_names") or [None])[-1] not in C.ALLOWED_LEAF: return False
-    if p["reviews"] is not None and p["reviews"] < C.MIN_REVIEWS: return False
+    if p["reviews"] is None or p["reviews"] < C.MIN_REVIEWS: return False
     v = per100(p)
     if check_value and v is not None and v > C.MAX_PER100G: return False
     return True
@@ -52,7 +52,7 @@ def _pack_ok(p):
     """개별포장(번들/입/미니박스) 스낵·감자칩: 봉지/카테고리 필터를 건너뛰되 소포장 표기가 있어야 한다."""
     if p["sold_out"] or not (C.MIN_UNIT_PRICE <= p["price"] <= C.MAX_UNIT_PRICE): return False
     if any(w in p["name"] for w in C.EXCLUDE_WORDS): return False
-    if p["reviews"] is not None and p["reviews"] < C.MIN_REVIEWS: return False
+    if p["reviews"] is None or p["reviews"] < C.MIN_REVIEWS: return False
     return bool(re.search(r"\d+\s*(입|번들|개입|봉)|미니\s*박스|번들|소포장|예감", p["name"]))
 
 
@@ -74,7 +74,7 @@ def _match(p, m):
 def select(cands):
     all_ = cands
     cands = [p for p in cands if _ok(p)]
-    picks, warnings, used = [], [], set()
+    picks, warnings, used, fams = [], [], set(), set()
 
     for m in C.MUST_HAVE:
         pool = sorted((p for p in all_ if _match(p, m) and not p["sold_out"]), key=lambda p: -_score(p))
@@ -88,23 +88,30 @@ def select(cands):
         pool = sorted((p for p in src if (in_cat_name(p, cfg) if (cfg.get("pack") or cfg.get("name_only")) else in_cat(p, cfg)) and p["price"] <= cfg.get("max_price", 10**9) and p["no"] not in used),
                       key=lambda p: -_score(p))
         chosen, seen_first = [], {}
-        for p in pool:  # 같은 브랜드/첫 단어 중복 방지 -> 종류 다양화
+        for p in pool:
+            fam = next((f for f in C.FAMILIES if f in p["name"].replace(" ", "")), None)
+            if fam and fam in fams: continue  # 같은 브랜드/첫 단어 중복 방지 -> 종류 다양화
             key = p["name"].replace("[", " ").replace("]", " ").split()[0]
             if seen_first.get(key, 0) >= C.BRAND_LIMIT.get(key, C.BRAND_DEFAULT): continue
             seen_first[key] = seen_first.get(key, 0) + 1; chosen.append(p); used.add(p["no"])
+            if fam: fams.add(fam)
             if len(chosen) >= cfg["max_items"]: break
         if not chosen: warnings.append(f"카테고리 '{cat}' 후보 없음"); continue
         per = C.BUDGET * cfg["share"] / len(chosen)
         for p in chosen:
-            picks.append({**p, "category": cat, "qty": max(cfg.get("min_qty", 1), min(C.MAX_QTY, round(per / p["price"]))), "minq": cfg.get("min_qty", 1),
+            picks.append({**p, "category": cat, "qty": max(cfg.get("min_qty", C.MIN_QTY), min(C.MAX_QTY, round(per / p["price"]))), "minq": cfg.get("min_qty", C.MIN_QTY),
                           "must": False, "label": ""})
 
     total = lambda: sum(p["price"] * p["qty"] for p in picks)
     # 초과 시 비필수 중 점수 낮은 것부터 감량
     while total() > C.BUDGET:
-        opt = [p for p in picks if not p["must"] and p["qty"] > p.get("minq", 1)] or [p for p in picks if not p["must"] and p["qty"] > 1]
-        if not opt: break
-        w = min(opt, key=_score); w["qty"] -= 1
+        opt = [p for p in picks if not p["must"] and p["qty"] > p.get("minq", 1)]
+        if opt:
+            min(opt, key=_score)["qty"] -= 1
+        else:  # 최소 수량 아래로 줄이지 않고, 점수 낮은 품목을 통째로 뺀다
+            rest = [p for p in picks if not p["must"]]
+            if not rest: break
+            picks.remove(min(rest, key=_score))
     # 부족 시 점수 높은 비필수부터 증량
     grew = True
     while total() < C.BUDGET_FLOOR and grew:
