@@ -36,22 +36,22 @@ def select(cands):
     for cat, cfg in C.CATEGORIES.items():
         pool = sorted((p for p in cands if p["keyword"] in cfg["keywords"] and p["no"] not in used),
                       key=lambda p: -_score(p))
-        chosen, seen_first = [], set()
+        chosen, seen_first = [], {}
         for p in pool:  # 같은 브랜드/첫 단어 중복 방지 -> 종류 다양화
             key = p["name"].replace("[", " ").replace("]", " ").split()[0]
-            if key in seen_first: continue
-            seen_first.add(key); chosen.append(p); used.add(p["no"])
+            if seen_first.get(key, 0) >= C.BRAND_LIMIT.get(key, 1): continue
+            seen_first[key] = seen_first.get(key, 0) + 1; chosen.append(p); used.add(p["no"])
             if len(chosen) >= cfg["max_items"]: break
         if not chosen: warnings.append(f"카테고리 '{cat}' 후보 없음"); continue
         per = C.BUDGET * cfg["share"] / len(chosen)
         for p in chosen:
-            picks.append({**p, "category": cat, "qty": max(1, min(6, round(per / p["price"]))),
+            picks.append({**p, "category": cat, "qty": max(1, min(C.MAX_QTY, round(per / p["price"]))),
                           "must": False, "label": ""})
 
     total = lambda: sum(p["price"] * p["qty"] for p in picks)
     # 초과 시 비필수 중 점수 낮은 것부터 감량
     while total() > C.BUDGET:
-        opt = [p for p in picks if not p["must"] and p["qty"] > 0]
+        opt = [p for p in picks if not p["must"] and p["qty"] > 1] or [p for p in picks if not p["must"] and p["qty"] > 0]
         if not opt: break
         w = min(opt, key=_score); w["qty"] -= 1
     # 부족 시 점수 높은 비필수부터 증량(최대 8개)
@@ -59,7 +59,7 @@ def select(cands):
     while total() < C.BUDGET_FLOOR and grew:
         grew = False
         for p in sorted((p for p in picks if not p["must"]), key=lambda p: -_score(p)):
-            if p["qty"] < 8 and total() + p["price"] <= C.BUDGET:
+            if p["qty"] < C.GROW_QTY and total() + p["price"] <= C.BUDGET:
                 p["qty"] += 1; grew = True
                 if total() >= C.BUDGET_FLOOR: break
     picks = [p for p in picks if p["qty"] > 0]

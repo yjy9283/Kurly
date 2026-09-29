@@ -13,6 +13,11 @@ def main():
     picks, warnings = sel.select(cands)
     out = "다과_구매목록.xlsx"
     export.export(picks, cands, warnings, out)
+    with open("구매링크.md", "w", encoding="utf-8") as f:
+        f.write("# 마켓컬리 구매 링크\n\n")
+        for p in sorted(picks, key=lambda p: (not p["must"], p["category"])):
+            f.write(f"- [{p['name']}]({p['url']}) — {p['price']:,}원 × {p['qty']}개 = {p['price']*p['qty']:,}원\n")
+        f.write(f"\n**합계 {sum(p['price']*p['qty'] for p in picks):,}원**\n")
     print(f"{out} 생성: {len(picks)}품목, 합계 {sum(p['price']*p['qty'] for p in picks):,}원")
     for w in warnings: print("경고:", w)
 
