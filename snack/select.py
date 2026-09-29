@@ -91,13 +91,13 @@ def select(cands):
         if not chosen: warnings.append(f"카테고리 '{cat}' 후보 없음"); continue
         per = C.BUDGET * cfg["share"] / len(chosen)
         for p in chosen:
-            picks.append({**p, "category": cat, "qty": max(1, min(C.MAX_QTY, round(per / p["price"]))),
+            picks.append({**p, "category": cat, "qty": max(cfg.get("min_qty", 1), min(C.MAX_QTY, round(per / p["price"]))), "minq": cfg.get("min_qty", 1),
                           "must": False, "label": ""})
 
     total = lambda: sum(p["price"] * p["qty"] for p in picks)
     # 초과 시 비필수 중 점수 낮은 것부터 감량
     while total() > C.BUDGET:
-        opt = [p for p in picks if not p["must"] and p["qty"] > 1] or [p for p in picks if not p["must"] and p["qty"] > 0]
+        opt = [p for p in picks if not p["must"] and p["qty"] > p.get("minq", 1)] or [p for p in picks if not p["must"] and p["qty"] > 1]
         if not opt: break
         w = min(opt, key=_score); w["qty"] -= 1
     # 부족 시 점수 높은 비필수부터 증량
