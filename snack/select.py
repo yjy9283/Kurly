@@ -47,7 +47,8 @@ def _score(p):
     r = p["reviews"] if p["reviews"] is not None else 50
     v = per100(p)
     value = 0 if v is None else -1.5 * math.log(max(v, 300) / 1500)  # 100g당 1,500원 기준
-    return math.log1p(r) + p["discount_rate"] / 20 + value + (2.5 if fav(p) else 0)
+    wrapped = 1.0 if re.search(r"\d+\s*(입|봉|번들|개입|팩)|개별포장|낱개|번들", p["name"]) else 0  # 낱개 소포장 가점
+    return math.log1p(r) + p["discount_rate"] / 20 + value + (2.5 if fav(p) else 0) + wrapped
 
 
 def _match(p, m):
@@ -90,7 +91,7 @@ def select(cands):
         opt = [p for p in picks if not p["must"] and p["qty"] > 1] or [p for p in picks if not p["must"] and p["qty"] > 0]
         if not opt: break
         w = min(opt, key=_score); w["qty"] -= 1
-    # 부족 시 점수 높은 비필수부터 증량(최대 8개)
+    # 부족 시 점수 높은 비필수부터 증량
     grew = True
     while total() < C.BUDGET_FLOOR and grew:
         grew = False
